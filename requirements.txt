@@ -3,3 +3,5 @@ asyncpg==0.29.0
 redis==5.0.4
 python-dotenv==1.0.1
 Pillow==10.2.0
+PyGithub==2.1.1
+gitpython==3.1.40
