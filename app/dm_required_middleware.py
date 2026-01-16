@@ -47,7 +47,7 @@ class DmRequiredMiddleware(BaseMiddleware):
 
 
 async def _notify_dm_required(event: Any, message: Message) -> None:
-    text = "Открой личку с ботом и начни переписку, иначе кнопки не работают."
+    text = "Для работы бота, надо зайти в его лс"
     if isinstance(event, CallbackQuery):
         try:
             await event.answer(text, show_alert=True)
