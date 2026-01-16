@@ -1,0 +1,200 @@
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 189, in feed_raw_update
+    return await self.feed_update(bot=bot, update=parsed_update, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/app/ownership_middleware.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/app/handlers/sausages.py", line 1050, in my_upgrade_confirm_callback
+    db_pool, query.from_user.id, item_id, expected_file, upgraded.file
+NameError: name 'expected_file' is not defined
+2026-01-13 19:34:49 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:34:49 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:34:50 [INFO] aiogram.event: Update id=176358263 is handled. Duration 236 ms by bot id=8416154932
+2026-01-13 19:34:54 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:34:54 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:34:54 [INFO] aiogram.event: Update id=176358264 is handled. Duration 23 ms by bot id=8416154932
+2026-01-13 19:35:01 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:01 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:01 [INFO] aiogram.event: Update id=176358265 is handled. Duration 133 ms by bot id=8416154932
+2026-01-13 19:35:01 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:01 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:02 [INFO] aiogram.event: Update id=176358266 is handled. Duration 239 ms by bot id=8416154932
+2026-01-13 19:35:08 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:08 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:08 [INFO] aiogram.event: Update id=176358267 is handled. Duration 631 ms by bot id=8416154932
+2026-01-13 19:35:10 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:10 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:11 [INFO] aiogram.event: Update id=176358268 is handled. Duration 1702 ms by bot id=8416154932
+2026-01-13 19:35:21 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:21 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:21 [INFO] aiogram.event: Update id=176358269 is handled. Duration 28 ms by bot id=8416154932
+2026-01-13 19:35:21 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:21 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:21 [INFO] aiogram.event: Update id=176358270 is handled. Duration 90 ms by bot id=8416154932
+2026-01-13 19:35:40 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:40 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:40 [INFO] aiogram.event: Update id=176358271 is handled. Duration 21 ms by bot id=8416154932
+2026-01-13 19:35:40 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:40 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:35:40 [INFO] aiogram.event: Update id=176358272 is handled. Duration 192 ms by bot id=8416154932
+2026-01-13 19:35:59 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:35:59 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:00 [INFO] aiogram.event: Update id=176358273 is handled. Duration 705 ms by bot id=8416154932
+2026-01-13 19:36:07 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:07 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:07 [INFO] aiogram.event: Update id=176358274 is handled. Duration 616 ms by bot id=8416154932
+2026-01-13 19:36:11 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:11 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:11 [INFO] aiogram.event: Update id=176358275 is handled. Duration 272 ms by bot id=8416154932
+2026-01-13 19:36:12 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:12 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:13 [INFO] aiogram.event: Update id=176358276 is handled. Duration 633 ms by bot id=8416154932
+2026-01-13 19:36:14 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:14 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:15 [INFO] aiogram.event: Update id=176358277 is handled. Duration 291 ms by bot id=8416154932
+2026-01-13 19:36:16 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:16 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:16 [INFO] aiogram.event: Update id=176358278 is handled. Duration 537 ms by bot id=8416154932
+2026-01-13 19:36:19 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:19 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:19 [INFO] aiogram.event: Update id=176358279 is handled. Duration 297 ms by bot id=8416154932
+2026-01-13 19:36:22 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:22 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:22 [INFO] aiogram.event: Update id=176358280 is handled. Duration 12 ms by bot id=8416154932
+2026-01-13 19:36:22 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:22 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:23 [INFO] aiogram.event: Update id=176358281 is handled. Duration 292 ms by bot id=8416154932
+2026-01-13 19:36:51 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:51 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:51 [INFO] aiogram.event: Update id=176358282 is handled. Duration 55 ms by bot id=8416154932
+2026-01-13 19:36:58 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:36:58 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:36:58 [INFO] aiogram.event: Update id=176358283 is not handled. Duration 6 ms by bot id=8416154932
+2026-01-13 19:37:13 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:37:13 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:37:14 [INFO] aiogram.event: Update id=176358284 is handled. Duration 23 ms by bot id=8416154932
+2026-01-13 19:39:40 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:39:40 +0000] "GET /miniapp HTTP/1.0" 200 237 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:39:40 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:39:40 +0000] "GET /miniapp/static/app.css HTTP/1.0" 304 178 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:39:40 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:39:40 +0000] "GET /miniapp/static/app.js HTTP/1.0" 304 178 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:39:41 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:39:41 +0000] "GET /miniapp/api/state HTTP/1.0" 200 441 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:46:48 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:46:48 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:46:49 [INFO] aiogram.event: Update id=176358285 is handled. Duration 613 ms by bot id=8416154932
+2026-01-13 19:46:50 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:46:50 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:46:51 [INFO] aiogram.event: Update id=176358286 is handled. Duration 364 ms by bot id=8416154932
+2026-01-13 19:46:52 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:46:52 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:46:52 [INFO] aiogram.event: Update id=176358287 is handled. Duration 109 ms by bot id=8416154932
+2026-01-13 19:46:53 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:46:53 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:46:53 [INFO] cards: Upgrade failed; removed item. user_id=1263864551 item_id=it_1263864551_kriMSjX8 file=сосиски колбастер.jpg
+2026-01-13 19:46:53 [INFO] aiogram.event: Update id=176358288 is handled. Duration 143 ms by bot id=8416154932
+2026-01-13 19:46:54 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:46:54 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:46:55 [INFO] aiogram.event: Update id=176358289 is handled. Duration 254 ms by bot id=8416154932
+2026-01-13 19:46:58 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:46:58 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:46:59 [INFO] aiogram.event: Update id=176358290 is handled. Duration 288 ms by bot id=8416154932
+2026-01-13 19:47:01 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:01 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:01 [INFO] aiogram.event: Update id=176358291 is handled. Duration 124 ms by bot id=8416154932
+2026-01-13 19:47:02 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:02 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:02 [INFO] cards: Upgrade success. user_id=1263864551 item_id=it_1263864551_YqLRmfjx from=черные сосиски.jpg to=сосиски венские.webp
+2026-01-13 19:47:02 [INFO] aiogram.event: Update id=176358292 is handled. Duration 183 ms by bot id=8416154932
+2026-01-13 19:47:04 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:04 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:04 [INFO] aiogram.event: Update id=176358293 is handled. Duration 242 ms by bot id=8416154932
+2026-01-13 19:47:05 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:05 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:06 [INFO] aiogram.event: Update id=176358294 is handled. Duration 300 ms by bot id=8416154932
+2026-01-13 19:47:07 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:07 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:07 [INFO] aiogram.event: Update id=176358295 is handled. Duration 100 ms by bot id=8416154932
+2026-01-13 19:47:08 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:08 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:08 [INFO] cards: Upgrade failed; removed item. user_id=1263864551 item_id=it_1263864551_-3mkqm5A file=турецкие сосиски.jpg
+2026-01-13 19:47:08 [INFO] aiogram.event: Update id=176358296 is handled. Duration 115 ms by bot id=8416154932
+2026-01-13 19:47:09 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:09 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:09 [INFO] aiogram.event: Update id=176358297 is handled. Duration 275 ms by bot id=8416154932
+2026-01-13 19:47:13 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:13 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:13 [INFO] aiogram.event: Update id=176358298 is handled. Duration 286 ms by bot id=8416154932
+2026-01-13 19:47:15 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:15 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:15 [INFO] aiogram.event: Update id=176358299 is handled. Duration 205 ms by bot id=8416154932
+2026-01-13 19:47:16 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:16 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:16 [INFO] cards: Upgrade failed; removed item. user_id=1263864551 item_id=it_1263864551_phxct6ok file=арабские сосиски.jpg
+2026-01-13 19:47:16 [INFO] aiogram.event: Update id=176358300 is handled. Duration 167 ms by bot id=8416154932
+2026-01-13 19:47:17 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:17 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:18 [INFO] aiogram.event: Update id=176358301 is handled. Duration 350 ms by bot id=8416154932
+2026-01-13 19:47:19 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:19 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:19 [INFO] aiogram.event: Update id=176358302 is handled. Duration 219 ms by bot id=8416154932
+2026-01-13 19:47:20 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:20 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:20 [INFO] aiogram.event: Update id=176358303 is handled. Duration 104 ms by bot id=8416154932
+2026-01-13 19:47:21 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:21 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:21 [INFO] cards: Upgrade success. user_id=1263864551 item_id=it_1263864551_S80iwUT6 from=сосиски SAUSAGE.webp to=очень длинная сырная сосиска.jpg
+2026-01-13 19:47:22 [INFO] aiogram.event: Update id=176358304 is handled. Duration 548 ms by bot id=8416154932
+2026-01-13 19:47:26 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:26 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:26 [INFO] aiogram.event: Update id=176358305 is handled. Duration 222 ms by bot id=8416154932
+2026-01-13 19:47:30 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:47:30 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:47:31 [INFO] aiogram.event: Update id=176358306 is handled. Duration 1184 ms by bot id=8416154932
+2026-01-13 19:48:15 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:48:15 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:48:15 [INFO] aiogram.event: Update id=176358307 is not handled. Duration 30 ms by bot id=8416154932
+2026-01-13 19:49:38 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:49:38 +0000] "GET /miniapp HTTP/1.0" 200 237 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:49:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:49:39 +0000] "GET /miniapp/static/app.css?v=2 HTTP/1.0" 200 236 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:49:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:49:39 +0000] "GET /miniapp/static/app.js?v=2 HTTP/1.0" 200 243 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:49:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:49:39 +0000] "GET /miniapp/static/fonts/Unbounded-ExtraBold.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:49:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:49:39 +0000] "GET /miniapp/static/fonts/Unbounded-Bold.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:49:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:49:39 +0000] "GET /miniapp/static/fonts/Unbounded-Regular.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:49:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:49:39 +0000] "GET /miniapp/api/state HTTP/1.0" 200 441 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 19:50:01 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:19:50:01 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 19:50:01 [INFO] aiogram.event: Update id=176358308 is handled. Duration 311 ms by bot id=8416154932
+2026-01-13 20:02:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:02:55 +0000] "GET /miniapp HTTP/1.0" 200 237 "-" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:02:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:02:55 +0000] "GET /miniapp/static/app.css?v=2 HTTP/1.0" 200 236 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:02:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:02:55 +0000] "GET /miniapp/static/app.js?v=2 HTTP/1.0" 200 243 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:02:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:02:55 +0000] "GET /miniapp/static/fonts/Unbounded-ExtraBold.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:02:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:02:55 +0000] "GET /miniapp/static/fonts/Unbounded-Regular.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:02:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:02:55 +0000] "GET /miniapp/static/fonts/Unbounded-Bold.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:02:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:02:55 +0000] "GET /miniapp/api/state HTTP/1.0" 200 441 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:03:00 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:03:00 +0000] "POST /miniapp/api/spin HTTP/1.0" 200 192 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Linux; Android 13; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.7499.146 Mobile Safari/537.36 Telegram-Android/12.3.1 (Honor NTH-NX9; Android 13; SDK 33; HIGH)"
+2026-01-13 20:03:00 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:03:00 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:03:00 [INFO] aiogram.event: Update id=176358309 is handled. Duration 304 ms by bot id=8416154932
+2026-01-13 20:03:03 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:03:03 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:03:03 [INFO] aiogram.event: Update id=176358310 is handled. Duration 395 ms by bot id=8416154932
+2026-01-13 20:04:04 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:04:04 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:04:04 [INFO] cards: Upgrade success. user_id=5376403416 item_id=it_5376403416_cJr0SsVL from=шесть нищих сосисок.jpg to=американские сосиски.webp
+2026-01-13 20:04:05 [INFO] aiogram.event: Update id=176358311 is handled. Duration 327 ms by bot id=8416154932
+2026-01-13 20:09:50 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:09:50 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:09:50 [INFO] aiogram.event: Update id=176358312 is handled. Duration 224 ms by bot id=8416154932
+2026-01-13 20:09:51 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:09:51 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:09:51 [INFO] aiogram.event: Update id=176358313 is handled. Duration 149 ms by bot id=8416154932
+2026-01-13 20:09:53 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:09:53 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:09:53 [INFO] aiogram.event: Update id=176358314 is handled. Duration 291 ms by bot id=8416154932
+2026-01-13 20:10:30 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:10:30 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:10:30 [INFO] aiogram.event: Update id=176358315 is handled. Duration 379 ms by bot id=8416154932
+2026-01-13 20:10:32 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:10:32 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:10:32 [INFO] aiogram.event: Update id=176358316 is handled. Duration 158 ms by bot id=8416154932
+2026-01-13 20:10:33 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:10:33 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:10:34 [INFO] aiogram.event: Update id=176358317 is handled. Duration 188 ms by bot id=8416154932
+2026-01-13 20:11:14 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:14 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:11:14 [INFO] aiogram.event: Update id=176358318 is handled. Duration 341 ms by bot id=8416154932
+2026-01-13 20:11:25 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:25 +0000] "GET /miniapp HTTP/1.0" 200 237 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:11:25 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:25 +0000] "GET /miniapp/static/app.css?v=2 HTTP/1.0" 304 178 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:11:25 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:25 +0000] "GET /miniapp/static/app.js?v=2 HTTP/1.0" 304 178 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:11:26 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:26 +0000] "GET /miniapp/static/fonts/Unbounded-ExtraBold.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:11:26 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:26 +0000] "GET /miniapp/static/fonts/Unbounded-Bold.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:11:26 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:26 +0000] "GET /miniapp/static/fonts/Unbounded-Regular.ttf HTTP/1.0" 304 179 "https://sosiskibot.ru/miniapp/static/app.css?v=2" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:11:26 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:26 +0000] "GET /miniapp/api/state HTTP/1.0" 200 441 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:11:34 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:34 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:11:34 [INFO] aiogram.event: Update id=176358319 is handled. Duration 199 ms by bot id=8416154932
+2026-01-13 20:11:59 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:11:59 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:12:00 [INFO] aiogram.event: Update id=176358320 is handled. Duration 407 ms by bot id=8416154932
+2026-01-13 20:12:08 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:12:08 +0000] "GET /miniapp/api/state HTTP/1.0" 200 441 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:12:27 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:12:27 +0000] "GET /miniapp/api/state HTTP/1.0" 200 441 "https://sosiskibot.ru/miniapp" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
+2026-01-13 20:12:29 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:12:29 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:12:29 [INFO] aiogram.event: Update id=176358321 is handled. Duration 334 ms by bot id=8416154932
+2026-01-13 20:13:13 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:13:13 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:13:13 [INFO] aiogram.event: Update id=176358322 is handled. Duration 231 ms by bot id=8416154932
+2026-01-13 20:13:14 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:13:14 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:13:14 [INFO] aiogram.event: Update id=176358323 is handled. Duration 177 ms by bot id=8416154932
+2026-01-13 20:13:15 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:13:15 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:13:16 [INFO] aiogram.event: Update id=176358324 is handled. Duration 186 ms by bot id=8416154932
+2026-01-13 20:13:24 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:13:24 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:13:24 [INFO] aiogram.event: Update id=176358325 is handled. Duration 154 ms by bot id=8416154932
+2026-01-13 20:13:27 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:13:27 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 20:13:27 [INFO] aiogram.event: Update id=176358326 is handled. Duration 212 ms by bot id=8416154932
+2026-01-13 20:13:58 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:20:13:58 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"

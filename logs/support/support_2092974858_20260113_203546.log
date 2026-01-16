@@ -1,0 +1,64 @@
+2026-01-13 17:33:50 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:33:50 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:33:54 [INFO] aiogram.event: Update id=176358083 is handled. Duration 3478 ms by bot id=8416154932
+2026-01-13 17:33:57 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:33:57 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:33:57 [INFO] aiogram.event: Update id=176358084 is handled. Duration 94 ms by bot id=8416154932
+2026-01-13 17:33:59 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:33:59 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:33:59 [INFO] cards: Roll: user_id=1328956729 item_id=it_1328956729_7IwNwji7 file=королевские сосиски.webp rarity=rare inserted=True
+2026-01-13 17:33:59 [INFO] aiogram.event: Update id=176358085 is handled. Duration 190 ms by bot id=8416154932
+2026-01-13 17:34:03 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:34:03 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:34:03 [INFO] aiogram.event: Update id=176358086 is handled. Duration 256 ms by bot id=8416154932
+2026-01-13 17:34:06 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:34:06 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:34:06 [INFO] aiogram.event: Update id=176358087 is handled. Duration 89 ms by bot id=8416154932
+2026-01-13 17:34:06 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:34:06 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:34:07 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:34:07 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:34:07 [INFO] aiogram.event: Update id=176358088 is handled. Duration 1088 ms by bot id=8416154932
+2026-01-13 17:34:07 [INFO] aiogram.event: Update id=176358089 is handled. Duration 240 ms by bot id=8416154932
+2026-01-13 17:34:11 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:34:11 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:34:11 [INFO] aiogram.event: Update id=176358090 is not handled. Duration 14 ms by bot id=8416154932
+2026-01-13 17:34:11 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-96' coro=<BaseRequestHandler._background_feed_update() done, defined at /root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py:137> exception=NameError("name 'expected_file' is not defined")>
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py", line 138, in _background_feed_update
+    result = await self.dispatcher.feed_raw_update(bot=bot, update=update, **self.data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 189, in feed_raw_update
+    return await self.feed_update(bot=bot, update=parsed_update, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/app/ownership_middleware.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/app/handlers/sausages.py", line 780, in draw_upgrade_confirm_callback
+    db_pool, query.from_user.id, item_id, expected_file
+NameError: name 'expected_file' is not defined
+2026-01-13 17:35:19 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:35:19 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:35:19 [INFO] aiogram.event: Update id=176358091 is handled. Duration 298 ms by bot id=8416154932
+2026-01-13 17:35:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:35:39 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:35:39 [INFO] aiogram.event: Update id=176358092 is handled. Duration 255 ms by bot id=8416154932
+2026-01-13 17:35:46 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:35:46 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"

@@ -1,0 +1,258 @@
+(venv) root@cherrybeen:~/sosiski# python bot.py
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getMe "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/setMyCommands "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/setMyCommands "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/setMyCommands "HTTP/1.1 200 OK"
+INFO:apscheduler.scheduler:Adding job tentatively -- it will be properly scheduled when the scheduler starts
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/deleteWebhook "HTTP/1.1 200 OK"
+INFO:apscheduler.scheduler:Added job "background_tick" to job store "default"
+INFO:apscheduler.scheduler:Scheduler started
+INFO:telegram.ext.Application:Application started
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUserProfilePhotos "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getFile "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://api.telegram.org/file/bot8416154932%3AAAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/photos/file_18.jpg "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/sendPhoto "HTTP/1.1 400 Bad Request"
+ERROR:root:Unhandled error in update
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+  File "/root/sosiski/bot.py", line 2500, in start_command
+    await send_main_menu(update, context)
+  File "/root/sosiski/bot.py", line 2436, in send_main_menu
+    await send_or_edit_photo(
+  File "/root/sosiski/bot.py", line 1834, in send_or_edit_photo
+    target_message = await message.reply_photo(**send_kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_message.py", line 1393, in reply_photo
+    return await self.get_bot().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 2666, in send_photo
+    return await super().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 525, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 1081, in send_photo
+    return await self._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 522, in _send_message
+    result = await super()._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 703, in _send_message
+    result = await self._post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 613, in _post
+    return await self._do_post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 360, in _do_post
+    return await self.rate_limiter.process_request(
+  File "/root/sosiski/bot.py", line 219, in process_request
+    return await callback(*args, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 641, in _do_post
+    return await request.post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 379, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: File must be non-empty
+INFO:apscheduler.executors.default:Running job "background_tick (trigger: interval[0:01:00], next run at: 2026-01-11 03:45:26 UTC)" (scheduled at 2026-01-11 03:44:26.747465+00:00)
+INFO:apscheduler.executors.default:Job "background_tick (trigger: interval[0:01:00], next run at: 2026-01-11 03:45:26 UTC)" executed successfully
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/sendPhoto "HTTP/1.1 400 Bad Request"
+ERROR:root:Unhandled error in update
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+  File "/root/sosiski/bot.py", line 2500, in start_command
+    await send_main_menu(update, context)
+  File "/root/sosiski/bot.py", line 2436, in send_main_menu
+    await send_or_edit_photo(
+  File "/root/sosiski/bot.py", line 1834, in send_or_edit_photo
+    target_message = await message.reply_photo(**send_kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_message.py", line 1393, in reply_photo
+    return await self.get_bot().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 2666, in send_photo
+    return await super().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 525, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 1081, in send_photo
+    return await self._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 522, in _send_message
+    result = await super()._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 703, in _send_message
+    result = await self._post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 613, in _post
+    return await self._do_post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 360, in _do_post
+    return await self.rate_limiter.process_request(
+  File "/root/sosiski/bot.py", line 219, in process_request
+    return await callback(*args, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 641, in _do_post
+    return await request.post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 379, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: File must be non-empty
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUserProfilePhotos "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getFile "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: GET https://api.telegram.org/file/bot8416154932%3AAAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/photos/file_23.jpg "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/sendPhoto "HTTP/1.1 400 Bad Request"
+ERROR:root:Unhandled error in update
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+  File "/root/sosiski/bot.py", line 2500, in start_command
+    await send_main_menu(update, context)
+  File "/root/sosiski/bot.py", line 2436, in send_main_menu
+    await send_or_edit_photo(
+  File "/root/sosiski/bot.py", line 1834, in send_or_edit_photo
+    target_message = await message.reply_photo(**send_kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_message.py", line 1393, in reply_photo
+    return await self.get_bot().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 2666, in send_photo
+    return await super().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 525, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 1081, in send_photo
+    return await self._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 522, in _send_message
+    result = await super()._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 703, in _send_message
+    result = await self._post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 613, in _post
+    return await self._do_post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 360, in _do_post
+    return await self.rate_limiter.process_request(
+  File "/root/sosiski/bot.py", line 219, in process_request
+    return await callback(*args, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 641, in _do_post
+    return await request.post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 379, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: File must be non-empty
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/sendPhoto "HTTP/1.1 400 Bad Request"
+ERROR:root:Unhandled error in update
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+  File "/root/sosiski/bot.py", line 2500, in start_command
+    await send_main_menu(update, context)
+  File "/root/sosiski/bot.py", line 2436, in send_main_menu
+    await send_or_edit_photo(
+  File "/root/sosiski/bot.py", line 1834, in send_or_edit_photo
+    target_message = await message.reply_photo(**send_kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_message.py", line 1393, in reply_photo
+    return await self.get_bot().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 2666, in send_photo
+    return await super().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 525, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 1081, in send_photo
+    return await self._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 522, in _send_message
+    result = await super()._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 703, in _send_message
+    result = await self._post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 613, in _post
+    return await self._do_post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 360, in _do_post
+    return await self.rate_limiter.process_request(
+  File "/root/sosiski/bot.py", line 219, in process_request
+    return await callback(*args, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 641, in _do_post
+    return await request.post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 379, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: File must be non-empty
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/sendPhoto "HTTP/1.1 400 Bad Request"
+ERROR:root:Unhandled error in update
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+  File "/root/sosiski/bot.py", line 2638, in my_command
+    await send_or_edit_photo(
+  File "/root/sosiski/bot.py", line 1834, in send_or_edit_photo
+    target_message = await message.reply_photo(**send_kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_message.py", line 1393, in reply_photo
+    return await self.get_bot().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 2666, in send_photo
+    return await super().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 525, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 1081, in send_photo
+    return await self._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 522, in _send_message
+    result = await super()._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 703, in _send_message
+    result = await self._post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 613, in _post
+    return await self._do_post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 360, in _do_post
+    return await self.rate_limiter.process_request(
+  File "/root/sosiski/bot.py", line 219, in process_request
+    return await callback(*args, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 641, in _do_post
+    return await request.post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 379, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: File must be non-empty
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:apscheduler.executors.default:Running job "background_tick (trigger: interval[0:01:00], next run at: 2026-01-11 03:46:26 UTC)" (scheduled at 2026-01-11 03:45:26.747465+00:00)
+INFO:apscheduler.executors.default:Job "background_tick (trigger: interval[0:01:00], next run at: 2026-01-11 03:46:26 UTC)" executed successfully
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/getUpdates "HTTP/1.1 200 OK"
+INFO:httpx:HTTP Request: POST https://api.telegram.org/bot8416154932:AAGoX2FzbLyshw-3LZX64yfkGhxf8GujvqI/sendPhoto "HTTP/1.1 400 Bad Request"
+ERROR:root:Unhandled error in update
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_application.py", line 1234, in process_update
+    await coroutine
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_basehandler.py", line 157, in handle_update
+    return await self.callback(update, context)
+  File "/root/sosiski/bot.py", line 2500, in start_command
+    await send_main_menu(update, context)
+  File "/root/sosiski/bot.py", line 2436, in send_main_menu
+    await send_or_edit_photo(
+  File "/root/sosiski/bot.py", line 1834, in send_or_edit_photo
+    target_message = await message.reply_photo(**send_kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_message.py", line 1393, in reply_photo
+    return await self.get_bot().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 2666, in send_photo
+    return await super().send_photo(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 525, in decorator
+    result = await func(self, *args, **kwargs)  # skipcq: PYL-E1102
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 1081, in send_photo
+    return await self._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 522, in _send_message
+    result = await super()._send_message(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 703, in _send_message
+    result = await self._post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 613, in _post
+    return await self._do_post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/ext/_extbot.py", line 360, in _do_post
+    return await self.rate_limiter.process_request(
+  File "/root/sosiski/bot.py", line 219, in process_request
+    return await callback(*args, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/_bot.py", line 641, in _do_post
+    return await request.post(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 200, in post
+    result = await self._request_wrapper(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/telegram/request/_baserequest.py", line 379, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: File must be non-empty

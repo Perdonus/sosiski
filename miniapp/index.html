@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sosiski Mini Apps</title>
+    <link rel="stylesheet" href="/miniapp/static/app.css?v=12" />
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <script defer src="/miniapp/static/app.js?v=12"></script>
+  </head>
+  <body data-bot="sosiskikazikbot">
+    <div class="ambient"></div>
+    <div id="toastContainer" class="toast-container"></div>
+    <div class="app">
+      <header class="topbar">
+        <div class="brand">
+          <div class="logo">S</div>
+          <div>
+            <div class="brand-title">Sosiski Arcade</div>
+            <div class="brand-sub">Mini apps</div>
+          </div>
+        </div>
+        <div class="balances">
+          <div class="balance-pill">
+            <span class="balance-label">Балик</span>
+            <span id="balanceRub" class="balance-value">0</span>
+            <span class="balance-currency">руб</span>
+          </div>
+          <div class="balance-pill balance-stars">
+            <div class="balance-inline">
+              <span class="balance-label">Звезды</span>
+              <span id="balanceStars" class="balance-value">0</span>
+              <span class="balance-currency">⭐</span>
+            </div>
+            <button id="starsTopup" class="pill-btn" type="button">
+              Пополнить
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <main class="content">
+        <section id="screen-home" class="screen screen-active">
+          <div class="headline">
+            <h1>Выбери игру</h1>
+            <p>Казик уже тут, дальше будут новые режимы.</p>
+          </div>
+          <div class="game-grid">
+            <button id="openKazik" class="game-card" type="button">
+              <div class="game-card-top">
+                <div class="game-icon">🎰</div>
+                <div class="game-title">Казик</div>
+              </div>
+              <div class="game-meta">Крутки, покупки, фри спины</div>
+              <div class="game-cta">Открыть</div>
+            </button>
+            <button id="openUpgrade" class="game-card" type="button">
+              <div class="game-card-top">
+                <div class="game-icon">🧪</div>
+                <div class="game-title">Апгрейд</div>
+              </div>
+              <div class="game-meta">Контракты по‑взрослому</div>
+              <div class="game-cta">Крутить</div>
+            </button>
+            <button id="openCards" class="game-card" type="button">
+              <div class="game-card-top">
+                <div class="game-icon">🃏</div>
+                <div class="game-title">Карты</div>
+              </div>
+              <div class="game-meta">Онлайн дурак с лобби</div>
+              <div class="game-cta">Войти</div>
+            </button>
+            <button id="openChess" class="game-card" type="button">
+              <div class="game-card-top">
+                <div class="game-icon">♟️</div>
+                <div class="game-title">Шахматы</div>
+              </div>
+              <div class="game-meta">Классика 1х1</div>
+              <div class="game-cta">Играть</div>
+            </button>
+            <div class="game-card ghost">
+              <div class="game-card-top">
+                <div class="game-icon">🕹️</div>
+                <div class="game-title">Скоро</div>
+              </div>
+              <div class="game-meta">Место для новых игр</div>
+              <div class="game-cta">В разработке</div>
+            </div>
+          </div>
+        </section>
+
+        <section id="screen-kazik" class="screen">
+          <div class="kazik-header">
+            <button id="backHome" class="ghost-btn" type="button">Назад</button>
+            <div class="kazik-title">
+              <h2>Казик</h2>
+              <span id="kazikSubtitle">Крутим красиво</span>
+            </div>
+            <div class="kazik-stats">
+              <div class="stat-pill">
+                <span>Фри</span>
+                <strong id="freeSpins">0</strong>
+              </div>
+              <div class="stat-pill">
+                <span>Бонус</span>
+                <strong id="paidSpins">0</strong>
+              </div>
+            </div>
+          </div>
+
+          <div id="kazikPanel" class="kazik-panel">
+            <div class="slot-glass">
+              <div class="slot-header">Sosiski Spin</div>
+              <div class="slot-body">
+                <div class="reel" data-index="0">0</div>
+                <div class="reel" data-index="1">0</div>
+                <div class="reel" data-index="2">0</div>
+              </div>
+              <div class="slot-footer">
+                <span id="spinHint">Готовы крутить</span>
+                <span id="resetTimer"></span>
+              </div>
+            </div>
+            <div class="kazik-actions">
+              <button id="spinBtn" class="primary-btn" type="button">Крутить</button>
+              <div class="buy-grid">
+                <button class="buy-btn" data-spins="1" data-cost="1" type="button">
+                  1 крутка за 1⭐
+                </button>
+                <button class="buy-btn" data-spins="5" data-cost="4" type="button">
+                  5 круток за 4⭐
+                </button>
+                <button class="buy-btn" data-spins="10" data-cost="7" type="button">
+                  10 круток за 7⭐
+                </button>
+                <button class="buy-btn" data-spins="15" data-cost="11" type="button">
+                  15 круток за 11⭐
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="screen-upgrade" class="screen">
+          <div class="upgrade-header">
+            <button id="backUpgrade" class="ghost-btn" type="button">Назад</button>
+            <div class="upgrade-title">
+              <h2>Апгрейд</h2>
+              <span>Собери сет, выбери шанс и крути колесо.</span>
+            </div>
+            <div class="upgrade-meta">
+              <span id="upgradeTotal" class="upgrade-pill">Сумма: 0р</span>
+              <span id="upgradeChance" class="upgrade-pill">Шанс: 0%</span>
+            </div>
+          </div>
+
+          <div class="upgrade-layout">
+            <div class="upgrade-wheel-card">
+              <div class="wheel-wrapper">
+                <div id="upgradePointer" class="wheel-pointer-wrap">
+                  <div class="wheel-pointer"></div>
+                </div>
+                <svg id="upgradeWheel" class="wheel-svg" viewBox="0 0 220 220" aria-hidden="true">
+                  <defs>
+                    <linearGradient id="wheelGlow" x1="0" y1="0" x2="1" y2="1">
+                      <stop offset="0%" stop-color="#ffd166" />
+                      <stop offset="100%" stop-color="#ff944d" />
+                    </linearGradient>
+                  </defs>
+                  <g id="upgradeWheelGroup">
+                    <g transform="rotate(-90 110 110)">
+                      <circle class="wheel-track" cx="110" cy="110" r="88"></circle>
+                      <circle id="upgradeWheelArc" class="wheel-arc" cx="110" cy="110" r="88"></circle>
+                    </g>
+                  </g>
+                </svg>
+                <div class="wheel-center">
+                  <div class="wheel-title">UPGRADE</div>
+                  <div class="wheel-sub">spin</div>
+                </div>
+              </div>
+              <button id="upgradeSpin" class="primary-btn" type="button">Крутить</button>
+            </div>
+
+            <div class="upgrade-panel">
+              <div class="upgrade-panel-head">
+                <div>
+                  <div id="upgradeStepTitle" class="panel-title">Выбери сосиску</div>
+                  <div id="upgradeStepHint" class="column-note">0/1</div>
+                </div>
+                <div class="upgrade-panel-actions">
+                  <div id="upgradeFilterGroup" class="filter-group hidden">
+                    <button class="filter-btn" data-filter="75" type="button">75%</button>
+                    <button class="filter-btn" data-filter="50" type="button">50%</button>
+                    <button class="filter-btn" data-filter="25" type="button">25%</button>
+                  </div>
+                  <button id="upgradeContinue" class="primary-btn" type="button">Продолжить</button>
+                  <button id="upgradeBackStep" class="ghost-btn hidden" type="button">Назад</button>
+                </div>
+              </div>
+              <div id="upgradeGrid" class="card-grid upgrade-grid"></div>
+            </div>
+          </div>
+
+        </section>
+
+        <section id="screen-cards" class="screen">
+          <div class="cards-header">
+            <button id="backCards" class="ghost-btn" type="button">Назад</button>
+            <div class="cards-title">
+              <h2>Карты</h2>
+              <span>Создай лобби и играй в дурака.</span>
+            </div>
+          </div>
+
+          <div class="cards-create">
+            <div class="cards-form">
+              <label>
+                Колода
+                <select id="cardsDeck">
+                  <option value="36">36 карт</option>
+                  <option value="52">52 карты</option>
+                </select>
+              </label>
+              <label>
+                Режим
+                <select id="cardsMode">
+                  <option value="classic">Обычные</option>
+                  <option value="podkidnoy">Подкидной</option>
+                  <option value="transfer">Подкидной/переводной</option>
+                </select>
+              </label>
+              <label>
+                Ставка
+                <select id="cardsBetType">
+                  <option value="balance">Балик</option>
+                  <option value="sausage">Сосиска</option>
+                </select>
+              </label>
+              <label>
+                Сумма
+                <input id="cardsBetAmount" type="number" min="1" value="100" />
+              </label>
+              <button id="cardsCreate" class="primary-btn" type="button">Создать лобби</button>
+            </div>
+          </div>
+
+          <div class="cards-section">
+            <div class="section-title">Лобби</div>
+            <div id="cardsLobbies" class="cards-lobbies"></div>
+          </div>
+        </section>
+
+        <section id="screen-cards-game" class="screen">
+          <div class="cards-header">
+            <button id="backCardsGame" class="ghost-btn" type="button">Назад</button>
+            <div class="cards-title">
+              <h2>Лобби</h2>
+              <span id="cardsLobbyMeta">Ожидание игроков</span>
+            </div>
+            <button id="cardsLeave" class="ghost-btn" type="button">Выйти</button>
+          </div>
+
+          <div id="cardsGameMeta" class="cards-meta"></div>
+
+          <div class="cards-top">
+            <div id="cardsPlayers" class="cards-players"></div>
+            <div class="cards-deck-area">
+              <div id="cardsDeckStack" class="deck-stack">
+                <div class="deck-card"></div>
+                <div class="deck-card"></div>
+                <div class="deck-card"></div>
+                <div id="cardsDeckCount" class="deck-count">0</div>
+              </div>
+              <div class="trump-wrap">
+                <div class="trump-label">Козырь</div>
+                <div id="cardsTrump" class="trump-card"></div>
+              </div>
+            </div>
+          </div>
+
+          <div id="cardsTurnTimer" class="cards-timer"></div>
+
+          <div id="cardsTable" class="cards-table"></div>
+
+          <div class="cards-actions">
+            <button id="cardsStart" class="primary-btn" type="button">Старт</button>
+            <button id="cardsTake" class="ghost-btn" type="button">Взять</button>
+            <button id="cardsPass" class="ghost-btn" type="button">Пас</button>
+          </div>
+
+          <div id="cardsHand" class="cards-hand"></div>
+        </section>
+
+        <section id="screen-chess" class="screen">
+          <div class="chess-header">
+            <button id="backChess" class="ghost-btn" type="button">Назад</button>
+            <div class="chess-title">
+              <h2>Шахматы</h2>
+              <span>Лобби 1х1 со ставкой.</span>
+            </div>
+          </div>
+
+          <div class="chess-create">
+            <div class="chess-form">
+              <label>
+                Ставка
+                <select id="chessBetType">
+                  <option value="balance">Балик</option>
+                  <option value="sausage">Сосиска</option>
+                </select>
+              </label>
+              <label>
+                Сумма
+                <input id="chessBetAmount" type="number" min="1" value="250" />
+              </label>
+              <button id="chessCreate" class="primary-btn" type="button">Создать лобби</button>
+            </div>
+          </div>
+
+          <div class="chess-section">
+            <div class="section-title">Лобби</div>
+            <div id="chessLobbies" class="chess-lobbies"></div>
+          </div>
+        </section>
+
+        <section id="screen-chess-game" class="screen">
+          <div class="chess-header">
+            <button id="backChessGame" class="ghost-btn" type="button">Назад</button>
+            <div class="chess-title">
+              <h2>Шахматы</h2>
+              <span id="chessLobbyMeta">Ожидание соперника</span>
+            </div>
+            <button id="chessLeave" class="ghost-btn" type="button">Выйти</button>
+          </div>
+
+          <div id="chessGameMeta" class="chess-meta"></div>
+          <div id="chessTurnTimer" class="chess-timer"></div>
+          <div id="chessPlayers" class="chess-players"></div>
+          <div class="chess-board-wrap">
+            <div id="chessBoard" class="chess-board"></div>
+          </div>
+        </section>
+
+        <div id="cardsStakeModal" class="modal hidden">
+          <div class="modal-card">
+            <div class="modal-header">
+              <span>Выбери сосиску для ставки</span>
+              <button id="cardsStakeClose" class="ghost-btn" type="button">Закрыть</button>
+            </div>
+            <div id="cardsStakeList" class="card-grid"></div>
+          </div>
+        </div>
+
+        <div id="resultCard" class="result-modal hidden">
+          <div class="result-window">
+            <div class="result-header">
+              <span id="resultTitle">Результат</span>
+              <button id="closeResult" class="ghost-btn" type="button">Закрыть</button>
+            </div>
+            <div id="resultBody" class="result-body"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,411 @@
+2026-01-13 17:33:59 [INFO] cards: Roll: user_id=1328956729 item_id=it_1328956729_7IwNwji7 file=королевские сосиски.webp rarity=rare inserted=True
+2026-01-13 17:35:49 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_PzVy2MkH file=сосиски колбастер.jpg rarity=dno inserted=True
+2026-01-13 17:43:46 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_dKKn0y-Y file=сосиски Seara.jpg rarity=dno inserted=True
+2026-01-13 17:44:40 [INFO] cards: Roll: user_id=5376403416 item_id=it_5376403416_cJr0SsVL file=шесть нищих сосисок.jpg rarity=dno inserted=True
+2026-01-13 18:59:00 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_e52CqKQU file=сосиски-сардельки.webp rarity=dno
+2026-01-13 19:04:14 [INFO] cards: Roll: user_id=5939773701 item_id=it_5939773701_Z9EvROPr file=сосиски в банке.jpg rarity=uncommon
+2026-01-13 19:31:25 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_6-b3kPve file=сосиска.jpg rarity=platinum
+2026-01-13 19:31:41 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_f22N5XNT file=камыши.jpg rarity=platinum
+2026-01-13 19:31:47 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_6YrphF5k file=сосиски Бородина.webp rarity=uncommon
+2026-01-13 19:31:52 [INFO] cards: Upgrade success. user_id=6603471853 item_id=it_6603471853_6YrphF5k from=сосиски Бородина.webp to=сосиски гриль мастер.jpg
+2026-01-13 19:46:53 [INFO] cards: Upgrade failed; removed item. user_id=1263864551 item_id=it_1263864551_kriMSjX8 file=сосиски колбастер.jpg
+2026-01-13 19:47:02 [INFO] cards: Upgrade success. user_id=1263864551 item_id=it_1263864551_YqLRmfjx from=черные сосиски.jpg to=сосиски венские.webp
+2026-01-13 19:47:08 [INFO] cards: Upgrade failed; removed item. user_id=1263864551 item_id=it_1263864551_-3mkqm5A file=турецкие сосиски.jpg
+2026-01-13 19:47:16 [INFO] cards: Upgrade failed; removed item. user_id=1263864551 item_id=it_1263864551_phxct6ok file=арабские сосиски.jpg
+2026-01-13 19:47:21 [INFO] cards: Upgrade success. user_id=1263864551 item_id=it_1263864551_S80iwUT6 from=сосиски SAUSAGE.webp to=очень длинная сырная сосиска.jpg
+2026-01-13 20:04:04 [INFO] cards: Upgrade success. user_id=5376403416 item_id=it_5376403416_cJr0SsVL from=шесть нищих сосисок.jpg to=американские сосиски.webp
+2026-01-13 20:45:18 [INFO] cards: Roll: user_id=5376403416 item_id=it_5376403416_ezNJ5qZt file=сосиска love.jpg rarity=epic
+2026-01-13 21:12:08 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_gBpvNi_E file=сосиски-колбаски.jpg rarity=rare
+2026-01-13 21:41:20 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_ElJwQTR4 file=сосиски-сардельки.webp rarity=dno
+2026-01-13 21:41:43 [INFO] cards: Contract success. user_id=6603471853 from=dno to=common item_id=it_6603471853_KgzOHv11
+2026-01-13 21:42:49 [INFO] cards: Contract success. user_id=6603471853 from=common to=uncommon item_id=it_6603471853_Bbi18PoS
+2026-01-13 22:59:05 [INFO] cards: Roll: user_id=6350494446 item_id=it_6350494446_3ZlNTBWV file=сосиски la danesa.jpg rarity=dno
+2026-01-13 23:01:23 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_UB_M77if file=китайские сосиски.jpg price=195 currency=rub
+2026-01-13 23:01:29 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_P0gftgxK file=китайские сосиски.jpg price=195 currency=rub
+2026-01-13 23:01:51 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_Qd-sUksS file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:01:52 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_jgmNeu0l file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:03:00 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_bKGhh7Bf file=американские горячие собаки.jpg price=143 currency=rub
+2026-01-13 23:03:01 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_TfOte1KR file=американские горячие собаки.jpg price=143 currency=rub
+2026-01-13 23:04:14 [INFO] cards: Contract success. user_id=6350494446 from=common to=uncommon item_id=it_6350494446_cx1FrOYI
+2026-01-13 23:04:28 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_LnagZZfV file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:28 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_b9hw1Ohl file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:28 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_box04ixF file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:32 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446__nXVb2LI file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:33 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_2BKzU0zz file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:34 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_UBDFYiye file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:35 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_nObmEN0e file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:36 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_c6KuhwMV file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:37 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_q39Bw5sl file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:04:38 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_adlIcFGc file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-13 23:05:21 [INFO] cards: Contract success. user_id=6350494446 from=uncommon to=rare item_id=it_6350494446_FFlib_QI
+2026-01-13 23:06:04 [INFO] cards: Contract success. user_id=6350494446 from=uncommon to=rare item_id=it_6350494446_fQHPbhXo
+2026-01-13 23:06:31 [INFO] cards: Contract success. user_id=6350494446 from=uncommon to=rare item_id=it_6350494446_wg74Oy3f
+2026-01-13 23:09:07 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_W39mdiiU file=сосиски колбасные сказки.jpg price=127 currency=rub
+2026-01-13 23:09:08 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_izp_OkJS file=сосиски колбасные сказки.jpg price=127 currency=rub
+2026-01-13 23:09:09 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_x5yuA_Xw file=сосиски колбасные сказки.jpg price=127 currency=rub
+2026-01-13 23:15:59 [INFO] cards: Roll: user_id=6291457624 item_id=it_6291457624_sX1CuJES file=сосиски в масле.jpg rarity=dno
+2026-01-13 23:16:05 [INFO] cards: Sell card (inventory). user_id=6291457624 item_id=it_6291457624_sX1CuJES file=сосиски в масле.jpg price=21 currency=rub
+2026-01-13 23:16:05 [INFO] cards: Sell card. user_id=6291457624 item_id=it_6291457624_sX1CuJES file=сосиски в масле.jpg price=21 currency=rub
+2026-01-13 23:29:10 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_vo9JRWV0 file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-13 23:29:19 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_HH5BhSem file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-13 23:29:41 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_QGmWS4Ua file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-13 23:29:42 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_I5m1Z9v7 file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-13 23:29:43 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Z9L1LDna file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-13 23:30:28 [INFO] cards: Contract success. user_id=5376403416 from=dno to=common item_id=it_5376403416_oeu3GJU_
+2026-01-14 02:57:06 [INFO] cards: Roll: user_id=6350494446 item_id=it_6350494446_uKfGzuhk file=сосиски развесные.webp rarity=dno
+2026-01-14 03:21:18 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_pgbxkzU1 file=американские сосиски.webp rarity=common
+2026-01-14 03:30:45 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_GPhkZYYw file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 04:48:33 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_lFApYRDj file=сосиски в масле.jpg rarity=dno
+2026-01-14 04:49:54 [INFO] cards: Contract success. user_id=2092974858 from=dno to=common item_id=it_2092974858_r1bbOntK
+2026-01-14 05:49:25 [INFO] cards: Roll: user_id=1037047969 item_id=it_1037047969_29xXEV2Y file=сосиски веселые ребята.jpg rarity=dno
+2026-01-14 05:49:31 [INFO] cards: Sell card (inventory). user_id=1037047969 item_id=it_1037047969_29xXEV2Y file=сосиски веселые ребята.jpg price=27 currency=rub
+2026-01-14 05:49:31 [INFO] cards: Sell card. user_id=1037047969 item_id=it_1037047969_29xXEV2Y file=сосиски веселые ребята.jpg price=27 currency=rub
+2026-01-14 06:12:13 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_LYUkmHbZ file=сосиски колбастер.jpg rarity=dno
+2026-01-14 06:14:34 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_Bz_dSMyO file=молочные Черкизово.jpg rarity=dno
+2026-01-14 06:15:40 [INFO] cards: Roll: user_id=5509479183 item_id=it_5509479183_bSUWWD1h file=длинные баварские сосиски.jpg rarity=dno
+2026-01-14 06:40:43 [INFO] cards: Roll: user_id=5376403416 item_id=it_5376403416_jqKp7Jqq file=сосиски кроха.jpg rarity=dno
+2026-01-14 06:40:53 [INFO] cards: Roll: user_id=6291457624 item_id=it_6291457624_pe-xoZV1 file=гриль сосиски.webp rarity=dno
+2026-01-14 06:40:57 [INFO] cards: Sell card (inventory). user_id=6291457624 item_id=it_6291457624_pe-xoZV1 file=гриль сосиски.webp price=36 currency=rub
+2026-01-14 06:40:57 [INFO] cards: Sell card. user_id=6291457624 item_id=it_6291457624_pe-xoZV1 file=гриль сосиски.webp price=36 currency=rub
+2026-01-14 06:41:56 [INFO] cards: Roll: user_id=6350494446 item_id=it_6350494446_nud1yBdr file=сосиски-сардельки.webp rarity=dno
+2026-01-14 06:43:28 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_aDe4fJ0v file=сосиски N.webp rarity=uncommon
+2026-01-14 07:06:38 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_YeqMGClQ file=казино сосиски.webp rarity=dno
+2026-01-14 07:08:12 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_4zfvYR3a file=сосиски веселые ребята.jpg rarity=dno
+2026-01-14 07:26:13 [INFO] cards: Roll: user_id=5939773701 item_id=it_5939773701_Kdy2mU_q file=молочные Черкизово.jpg rarity=dno
+2026-01-14 07:26:25 [INFO] cards: Sell card (inventory). user_id=5939773701 item_id=it_5939773701_Kdy2mU_q file=молочные Черкизово.jpg price=24 currency=rub
+2026-01-14 07:26:25 [INFO] cards: Sell card. user_id=5939773701 item_id=it_5939773701_Kdy2mU_q file=молочные Черкизово.jpg price=24 currency=rub
+2026-01-14 07:45:44 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_W6fmKO0T file=ненастоящие сосиски.jpg rarity=rare
+2026-01-14 07:56:06 [INFO] cards: Roll: user_id=1566433470 item_id=it_1566433470_n-Fq7kx8 file=молочные Черкизово.jpg rarity=dno
+2026-01-14 07:56:15 [INFO] cards: Sell card (inventory). user_id=1566433470 item_id=it_1566433470_n-Fq7kx8 file=молочные Черкизово.jpg price=24 currency=rub
+2026-01-14 07:56:15 [INFO] cards: Sell card. user_id=1566433470 item_id=it_1566433470_n-Fq7kx8 file=молочные Черкизово.jpg price=24 currency=rub
+2026-01-14 08:10:34 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_eXwFofUu rarity=legendary effect=free_rolls_daily
+2026-01-14 08:51:52 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_dPnsGU0N file=сосиски кроха.jpg rarity=dno
+2026-01-14 08:55:12 [INFO] cards: Contract failed. user_id=6603471853 rarity=dno items=['it_6603471853_dPnsGU0N', 'it_6603471853_1768301062', 'it_6603471853_1768301064', 'it_6603471853_YeqMGClQ']
+2026-01-14 09:21:28 [INFO] cards: Contract success. user_id=8056977220 from=common to=uncommon item_id=it_8056977220_aMWZaWbF
+2026-01-14 09:22:01 [INFO] cards: Contract success. user_id=8056977220 from=common to=uncommon item_id=it_8056977220_J0eM5qT8
+2026-01-14 09:22:33 [INFO] cards: Contract success. user_id=8056977220 from=common to=uncommon item_id=it_8056977220_P01eWTBV
+2026-01-14 09:23:09 [INFO] cards: Contract success. user_id=8056977220 from=common to=uncommon item_id=it_8056977220_Y3WOEBwG
+2026-01-14 09:23:43 [INFO] cards: Contract success. user_id=8056977220 from=dno to=common item_id=it_8056977220_LzLeSNJf
+2026-01-14 09:23:46 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_DRJnKkvh file=обрезанные сосиски.jpg rarity=dno
+2026-01-14 09:24:19 [INFO] cards: Contract success. user_id=8056977220 from=uncommon to=rare item_id=it_8056977220_KDl2dxhp
+2026-01-14 09:24:47 [INFO] cards: Contract failed. user_id=8056977220 rarity=uncommon items=['it_8056977220_1768315889', 'it_8056977220_1768317466', 'it_8056977220_1768317468', 'it_8056977220_1768317475']
+2026-01-14 09:26:19 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_t12FJlo8 file=сосиски-сардельки.webp rarity=dno
+2026-01-14 09:26:24 [INFO] cards: Roll: user_id=5509479183 item_id=it_5509479183_jnT-hk6F file=сосиски Seara.jpg rarity=dno
+2026-01-14 09:26:43 [INFO] cards: Contract success. user_id=8056977220 from=uncommon to=rare item_id=it_8056977220_li2Tsxpz
+2026-01-14 09:27:21 [INFO] cards: Roll: user_id=6026142378 item_id=it_6026142378_MGoC3cvB file=молочные Черкизово.jpg rarity=dno
+2026-01-14 09:27:32 [INFO] cards: Contract success. user_id=8056977220 from=rare to=epic item_id=it_8056977220_RXPRsbaM
+2026-01-14 09:28:55 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_htMfGJzK file=сосиска на вилке.jpg rarity=common
+2026-01-14 09:31:08 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_61U64PTo file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:09 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_egmvFDQg file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:10 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_7H8RYJL_ file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:11 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_mrLcMJHs file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:12 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_C1RKJXBr file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:13 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_6J6SLOrK file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:15 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_UMOKzX4P file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:16 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_5MFOsbUD file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:17 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_K7GUyoyS file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:20 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_lHMxolmD file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:22 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_dT49tE9i file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:23 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_KWLB3RST file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:26 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_eS3f3iEg file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:27 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_njf0-rEL file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 09:31:51 [INFO] cards: Shop buy. user_id=1263864551 item_id=it_1263864551_0UPxG_4T file=мини сосиски.jpg price=50 currency=rub
+2026-01-14 09:31:53 [INFO] cards: Shop buy. user_id=1263864551 item_id=it_1263864551_Iaqw3MR0 file=мини сосиски.jpg price=50 currency=rub
+2026-01-14 09:33:04 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_Y5KBpwCt file=сосиски la danesa.jpg rarity=dno
+2026-01-14 09:35:50 [INFO] cards: Contract success. user_id=8056977220 from=dno to=common item_id=it_8056977220_T_4VkLsp
+2026-01-14 09:37:21 [INFO] cards: Contract success. user_id=8056977220 from=dno to=common item_id=it_8056977220_1byPXyBZ
+2026-01-14 09:37:37 [INFO] cards: Contract success. user_id=8056977220 from=dno to=common item_id=it_8056977220_fq30imJa
+2026-01-14 09:40:15 [INFO] cards: Contract failed. user_id=8056977220 rarity=dno items=['it_8056977220_eS3f3iEg', 'it_8056977220_njf0-rEL', 'it_8056977220_bpTo_ekr', 'it_8056977220_O70WLI97']
+2026-01-14 09:42:50 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_258DWL-k file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:42:52 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_SVBUfuWS file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:42:54 [INFO] cards: Contract success. user_id=1263864551 from=dno to=common item_id=it_1263864551_49hfhpyz
+2026-01-14 09:42:54 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_CRHnVCMc file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:43:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_-TC87qg_ file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:43:08 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Rbls_hP0 file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:43:48 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_bXCdMnVj file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_P3yFXpeQ file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Gj-fa8c6 file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_WLiKYq71 file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_xsEYVNhI file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Z1cK4lGn file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:32 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_lsNDdslS file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:32 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_HIfc-2S6 file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:32 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Bvvtb41l file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:32 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_T91BoNH0 file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:32 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_2hiNdlJT file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:45 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_qdKNZO7s file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:45 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_lj50G4db file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:48 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_x1KZZbyA file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:49 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_G0Z-y6-9 file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:49 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_XJPfFLwq file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:50 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_mR860tuD file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:44:50 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_v_Jit6Yu file=ненастоящие сосиски.jpg price=940 currency=rub
+2026-01-14 09:45:06 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_TqtQAmI9 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:06 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_BLrnkZn_ file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:06 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_iJ9SBesU file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:07 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_HjorK71b file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:08 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_V6kuVbIU file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:08 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_UtZWcnDs file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:08 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_4HqCtHMI file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:08 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_qwHBUkf5 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:09 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_B4QHY0Ol file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:19 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_RVIoWAPp file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:20 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_lGbLpriq file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:20 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_8lmuKSvk file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:20 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_72is3j6A file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:20 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_FVOSrTPj file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:24 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_oge2auHK file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:28 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Pbnm7bsB file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:28 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_H92LOImT file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:28 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_h4CG7AZV file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:28 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_KAUX98WG file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:28 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_IIahxROH file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:30 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_IBZZ69tC file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:31 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_1Yg3CP_A file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:32 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_Tvs6TO-f file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:33 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_y6qGSEzR file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:33 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_IVQZRuDn file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:33 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_rcmQGoT4 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:33 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_5wHAtEEH file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:33 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_PaQaiTIm file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:33 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_z1To68Kh file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:34 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_AwxGyLE0 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:35 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_2vVd1slu file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:36 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_lbTv39D1 file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:37 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_A6lOl_l4 file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:38 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_AripSUw0 file=сосиски кроха.jpg price=35 currency=rub
+2026-01-14 09:45:38 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_YmJv0cmU file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:38 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_D-uvIZSV file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:39 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_iU99nw5I file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:39 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_6eLLOzp8 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:39 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_UxTrqSCC file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:43 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_OUfPKgos file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:44 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_yB4rOJRj file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:44 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_kCW_uDB6 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:44 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_GAniXOp8 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:44 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_GS-q6l2t file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:50 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_y5hCZri0 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:50 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_-FiodBwc file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:50 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Vdbcz2MT file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:50 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_KxxL_Stn file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:51 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_1jzr3dYH file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:55 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_SSsAz1Jx file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:58 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_eplO59bc file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:58 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_NLr3eX7h file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:58 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_Er_TZqBM file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:45:58 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_rh0nRhKT file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_nCHDKuSt file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_QsvpULKM file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:00 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_KNVVSnIB file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:01 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_pi7Ihqf7 file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:01 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_0NkuzM2q file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:02 [INFO] cards: Contract success. user_id=8056977220 from=dno to=common item_id=it_8056977220_gAmatPL8
+2026-01-14 09:46:05 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_XByQz6vQ file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:09 [INFO] cards: Shop buy. user_id=5376403416 item_id=it_5376403416_P7pUBBoY file=королевские сосиски.webp price=1110 currency=rub
+2026-01-14 09:46:58 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_vaqjsKdG
+2026-01-14 09:47:06 [INFO] cards: Contract failed. user_id=8056977220 rarity=dno items=['it_8056977220_Tvs6TO-f', 'it_8056977220_y6qGSEzR', 'it_8056977220_z1To68Kh', 'it_8056977220_2vVd1slu']
+2026-01-14 09:47:41 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_D98y2j-w
+2026-01-14 09:48:14 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_IPNF4Xy2
+2026-01-14 09:48:51 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_NWntY79H
+2026-01-14 09:49:25 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_JqzrqIX5
+2026-01-14 09:50:07 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416__hBZAsf0
+2026-01-14 09:50:51 [INFO] cards: Contract success. user_id=5376403416 from=epic to=legendary item_id=it_5376403416_MQqsq-LX
+2026-01-14 09:51:35 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_OD--shDF
+2026-01-14 09:52:16 [INFO] cards: Contract failed. user_id=5376403416 rarity=rare items=['it_5376403416_UtZWcnDs', 'it_5376403416_4HqCtHMI', 'it_5376403416_qwHBUkf5', 'it_5376403416_B4QHY0Ol']
+2026-01-14 09:52:43 [INFO] cards: Contract failed. user_id=5376403416 rarity=rare items=['it_5376403416_RVIoWAPp', 'it_5376403416_lGbLpriq', 'it_5376403416_8lmuKSvk', 'it_5376403416_72is3j6A']
+2026-01-14 09:53:14 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_P9MUNwUR
+2026-01-14 09:53:46 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_ODs4nLxI
+2026-01-14 09:54:31 [INFO] cards: Contract success. user_id=5376403416 from=epic to=legendary item_id=it_5376403416_VfJT0FpW
+2026-01-14 09:54:40 [INFO] cards: Roll: user_id=1228416664 item_id=it_1228416664_Oayih4sV file=длинные баварские сосиски.jpg rarity=dno
+2026-01-14 09:54:52 [INFO] cards: Sell card (inventory). user_id=1228416664 item_id=it_1228416664_Oayih4sV file=длинные баварские сосиски.jpg price=33 currency=rub
+2026-01-14 09:54:52 [INFO] cards: Sell card. user_id=1228416664 item_id=it_1228416664_Oayih4sV file=длинные баварские сосиски.jpg price=33 currency=rub
+2026-01-14 09:55:34 [INFO] cards: Contract failed. user_id=5376403416 rarity=rare items=['it_5376403416_5wHAtEEH', 'it_5376403416_PaQaiTIm', 'it_5376403416_AwxGyLE0', 'it_5376403416_YmJv0cmU']
+2026-01-14 09:56:25 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_8Ary-Nou
+2026-01-14 09:57:27 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_th3CLvGp
+2026-01-14 09:57:40 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_ZAIPw1M9
+2026-01-14 09:58:38 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_co2CvaaQ
+2026-01-14 09:59:50 [INFO] cards: Contract success. user_id=5376403416 from=epic to=legendary item_id=it_5376403416__vY4QxGR
+2026-01-14 10:00:49 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_Av--yhMx
+2026-01-14 10:01:34 [INFO] cards: Contract success. user_id=5376403416 from=rare to=epic item_id=it_5376403416_fh51r-bm
+2026-01-14 10:17:57 [INFO] cards: Roll: user_id=6291457624 item_id=it_6291457624_fd0vOymY file=сосиски развесные.webp rarity=dno
+2026-01-14 10:18:01 [INFO] cards: Sell card (inventory). user_id=6291457624 item_id=it_6291457624_fd0vOymY file=сосиски развесные.webp price=33 currency=rub
+2026-01-14 10:18:01 [INFO] cards: Sell card. user_id=6291457624 item_id=it_6291457624_fd0vOymY file=сосиски развесные.webp price=33 currency=rub
+2026-01-14 10:23:50 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_SJpBvJcY file=сосиски Richmond.jpg rarity=common
+2026-01-14 10:42:20 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_FgDVL5CC file=сосиски кроха.jpg rarity=dno
+2026-01-14 11:34:44 [INFO] cards: Contract success. user_id=8056977220 from=dno to=common item_id=it_8056977220_6bZrTEzy
+2026-01-14 12:00:20 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_x1YM7JMT file=сосиски PERDIGĀO.jpg rarity=dno
+2026-01-14 13:05:50 [INFO] cards: Roll: user_id=6350494446 item_id=it_6350494446_wYBWwZw3 file=длинные баварские сосиски.jpg rarity=dno
+2026-01-14 13:20:16 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_g02ENs8C file=сосиски PERDIGĀO.jpg rarity=dno
+2026-01-14 13:49:12 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_FU3tBBI6 file=сосиски PERDIGĀO.jpg rarity=dno
+2026-01-14 13:49:21 [INFO] cards: Sell card (inventory). user_id=1263864551 item_id=it_1263864551_FU3tBBI6 file=сосиски PERDIGĀO.jpg price=39 currency=rub
+2026-01-14 13:49:21 [INFO] cards: Sell card. user_id=1263864551 item_id=it_1263864551_FU3tBBI6 file=сосиски PERDIGĀO.jpg price=39 currency=rub
+2026-01-14 14:23:27 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_dAhIQs_o file=сосиски Черкизово румяные.jpg rarity=rare
+2026-01-14 15:59:02 [INFO] cards: Roll: user_id=5939773701 item_id=it_5939773701_XRRXe8GL file=обрезанные сосиски.jpg rarity=dno
+2026-01-14 15:59:09 [INFO] cards: Sell card (inventory). user_id=5939773701 item_id=it_5939773701_XRRXe8GL file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 15:59:09 [INFO] cards: Sell card. user_id=5939773701 item_id=it_5939773701_XRRXe8GL file=обрезанные сосиски.jpg price=24 currency=rub
+2026-01-14 16:02:01 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_E_eXwx_r file=сосиски любительские.webp rarity=common
+2026-01-14 17:49:58 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_OKdiyBhc file=сосиски любительские.webp rarity=common
+2026-01-14 17:50:03 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_WT1s2wh- file=сосиски Büfe.webp rarity=common
+2026-01-14 18:03:54 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_vTRHMkWM file=сосиски лента.webp rarity=dno
+2026-01-14 18:10:56 [INFO] cards: Contract failed. user_id=2092974858 rarity=dno items=['it_2092974858_IdaVRzKv', 'it_2092974858_deTnF2t3', 'it_2092974858_DRJnKkvh', 'it_2092974858_x1YM7JMT']
+2026-01-14 20:18:07 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_RiJ5T6Yr file=сосиски Seara.jpg rarity=dno
+2026-01-14 22:08:44 [INFO] cards: Roll: user_id=6291457624 item_id=it_6291457624_JyQJi1Zu file=китайские сосиски.jpg rarity=common
+2026-01-14 22:08:48 [INFO] cards: Sell card (inventory). user_id=6291457624 item_id=it_6291457624_JyQJi1Zu file=китайские сосиски.jpg price=106 currency=rub
+2026-01-14 22:08:48 [INFO] cards: Sell card. user_id=6291457624 item_id=it_6291457624_JyQJi1Zu file=китайские сосиски.jpg price=106 currency=rub
+2026-01-14 22:12:17 [INFO] cards: Roll: user_id=5730039793 item_id=it_5730039793_WEdBKDs0 file=странная сосиска.jpg rarity=platinum
+2026-01-14 22:12:24 [INFO] cards: Sell card (inventory). user_id=5730039793 item_id=it_5730039793_WEdBKDs0 file=странная сосиска.jpg price=5652 currency=rub
+2026-01-14 22:12:24 [INFO] cards: Sell card. user_id=5730039793 item_id=it_5730039793_WEdBKDs0 file=странная сосиска.jpg price=5652 currency=rub
+2026-01-15 01:44:30 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_T2OAC89i file=сосиски SAUSAGE.webp rarity=epic
+2026-01-15 04:39:58 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_U-9I_qkg file=сосиски кроха.jpg price=31 currency=rub
+2026-01-15 04:39:59 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_y5guwc4e file=сосиски кроха.jpg price=31 currency=rub
+2026-01-15 04:40:00 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_Mq9ETSYd file=сосиски кроха.jpg price=31 currency=rub
+2026-01-15 04:40:02 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_fc7BnXIF file=сосиски кроха.jpg price=31 currency=rub
+2026-01-15 04:40:03 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_tD5ly3nM file=сосиски кроха.jpg price=31 currency=rub
+2026-01-15 04:40:04 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_w1z-keWG file=сосиски кроха.jpg price=31 currency=rub
+2026-01-15 04:43:57 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_LXdehvt4 file=злая сосиска.jpg rarity=epic
+2026-01-15 05:25:31 [INFO] cards: Roll: user_id=8282121943 item_id=it_8282121943_85v1KmFH file=сосиски Büfe.webp rarity=common
+2026-01-15 05:59:22 [INFO] cards: Roll: user_id=6291457624 item_id=it_6291457624_WHCQKmY- file=сосиски Алексеевские.webp rarity=rare
+2026-01-15 05:59:25 [INFO] cards: Sell card (inventory). user_id=6291457624 item_id=it_6291457624_WHCQKmY- file=сосиски Алексеевские.webp price=452 currency=rub
+2026-01-15 05:59:25 [INFO] cards: Sell card. user_id=6291457624 item_id=it_6291457624_WHCQKmY- file=сосиски Алексеевские.webp price=452 currency=rub
+2026-01-15 05:59:29 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_ElRaFng_ file=премиум sausage.jpg rarity=uncommon
+2026-01-15 06:18:46 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_puMBynBR file=сосискошина.jpg rarity=epic
+2026-01-15 06:25:02 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_ufexXT-Z file=сосиски N.webp rarity=uncommon
+2026-01-15 06:36:58 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_mNNMm-Mj file=завернутая сосиска.jpg rarity=common
+2026-01-15 07:14:11 [INFO] cards: Roll: user_id=2083433940 item_id=it_2083433940_aE5PqnFL file=сосиска.jpg rarity=platinum
+2026-01-15 07:14:25 [INFO] cards: Sell card (inventory). user_id=2083433940 item_id=it_2083433940_aE5PqnFL file=сосиска.jpg price=4716 currency=rub
+2026-01-15 07:14:25 [INFO] cards: Sell card. user_id=2083433940 item_id=it_2083433940_aE5PqnFL file=сосиска.jpg price=4716 currency=rub
+2026-01-15 07:19:33 [INFO] cards: Shop buy. user_id=6026142378 item_id=it_6026142378_iTD5KiBw file=гриль сосиски.webp price=60 currency=rub
+2026-01-15 07:19:43 [INFO] cards: Shop buy. user_id=6026142378 item_id=it_6026142378_xkJMM5_t file=казино сосиски.webp price=53 currency=rub
+2026-01-15 07:19:48 [INFO] cards: Shop buy. user_id=6026142378 item_id=it_6026142378_tDbktuLG file=молочные Черкизово.jpg price=40 currency=rub
+2026-01-15 07:21:48 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853__arCA7K5 file=ядрёна копоть.jpg rarity=epic
+2026-01-15 07:21:51 [INFO] cards: Roll: user_id=5509479183 item_id=it_5509479183_f_hSbGxb file=ненастоящие сосиски.jpg rarity=rare
+2026-01-15 07:36:07 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_vyDLlY40 file=сосиски Черкизово румяные.jpg rarity=rare
+2026-01-15 07:40:54 [INFO] cards: Roll: user_id=5939773701 item_id=it_5939773701_ZX3BAKKv file=настоящие сырные сосиски.jpg rarity=epic
+2026-01-15 08:06:50 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_X1wNTqXO file=жирная сосиска.jpg rarity=common
+2026-01-15 08:40:16 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_RUCOuYET file=крутые копченые сосиски.jpg rarity=rare
+2026-01-15 08:41:10 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_eVcm9Gx2 file=завернутая сосиска.jpg rarity=common
+2026-01-15 08:45:26 [INFO] cards: Roll: user_id=5541048999 item_id=it_5541048999_Mw5HNhc5 file=сосиски Seara.jpg rarity=dno
+2026-01-15 10:01:08 [INFO] cards: Roll: user_id=6291457624 item_id=it_6291457624_059v3M2M file=сосискигет.png rarity=platinum
+2026-01-15 10:01:13 [INFO] cards: Sell card (inventory). user_id=6291457624 item_id=it_6291457624_059v3M2M file=сосискигет.png price=7200 currency=rub
+2026-01-15 10:01:13 [INFO] cards: Sell card. user_id=6291457624 item_id=it_6291457624_059v3M2M file=сосискигет.png price=7200 currency=rub
+2026-01-15 10:48:37 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_VhuJGr05 file=сосиски колбастер.jpg rarity=dno
+2026-01-15 11:23:42 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_l6RWFyJ2 file=странная сосиска.jpg rarity=platinum
+2026-01-15 11:23:49 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_z6CDHifG file=сосиска змейка.jpg rarity=epic
+2026-01-15 11:28:49 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_L2UF5LdB file=ядрёна копоть.jpg rarity=epic
+2026-01-15 11:29:25 [INFO] cards: Sell card (inventory). user_id=2092974858 item_id=it_2092974858_L2UF5LdB file=ядрёна копоть.jpg price=722 currency=rub
+2026-01-15 11:29:25 [INFO] cards: Sell card. user_id=2092974858 item_id=it_2092974858_L2UF5LdB file=ядрёна копоть.jpg price=722 currency=rub
+2026-01-15 11:56:08 [INFO] cards: Contract failed. user_id=6603471853 rarity=epic items=['it_6603471853_iUdZXHmK', 'it_6603471853_q9YE3GU3', 'it_6603471853__arCA7K5', 'it_6603471853_4Yqss1QD']
+2026-01-15 12:27:07 [INFO] cards: Roll: user_id=1228416664 item_id=it_1228416664_6Crv8JDb file=сосиски веселые ребята.jpg rarity=dno
+2026-01-15 13:03:38 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_Nd2IdAR9 file=сосиски Seara.jpg rarity=dno
+2026-01-15 13:34:05 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_OamG0nBv file=завернутая сосиска.jpg rarity=common
+2026-01-15 13:34:18 [INFO] cards: Contract success. user_id=2092974858 from=common to=uncommon item_id=it_2092974858_57XQL-8s
+2026-01-15 13:38:44 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_MBOH8k_n file=сосиски-сардельки.webp rarity=dno
+2026-01-15 14:49:00 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_gdGr_1BM file=ненастоящие сосиски.jpg rarity=rare
+2026-01-15 15:08:22 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_XTjsSlr- file=сосиски колбастер.jpg rarity=dno
+2026-01-15 15:11:33 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_aTwaf8i8 file=завернутая сосиска.jpg rarity=common
+2026-01-15 15:11:43 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_XIaIHpE8 file=турецкие сосиски.jpg rarity=uncommon
+2026-01-15 15:11:54 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_432W_vkF file=пальчики.jpg rarity=common
+2026-01-15 15:12:02 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_WS15YJXp file=сосиски-сардельки.webp rarity=dno
+2026-01-15 15:12:12 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_6TvWjBXG file=казино сосиски.webp rarity=dno
+2026-01-15 15:12:15 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_GGBqXApx file=гриль сосиски.webp rarity=dno
+2026-01-15 15:12:18 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_l4ltOgs9 file=сосиски Büfe.webp rarity=common
+2026-01-15 15:12:20 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_5q-XomlH file=сосиски гриль мастер.jpg rarity=rare
+2026-01-15 15:13:04 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_puaVo8qy file=казино сосиски.webp rarity=dno
+2026-01-15 15:13:22 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_e1pRRzy0 file=сосиски калинка.jpg rarity=dno
+2026-01-15 15:13:23 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_Eg94AYTu file=премиум sausage.jpg rarity=uncommon
+2026-01-15 15:13:23 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_YtJdm0IE file=крутые копченые сосиски.jpg rarity=rare
+2026-01-15 15:13:24 [INFO] cards: Roll: user_id=5422468856 item_id=it_5422468856_Kd8YchQz file=сосиски пит-продукт.webp rarity=uncommon
+2026-01-15 15:13:41 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_YtJdm0IE file=крутые копченые сосиски.jpg price=585 currency=rub
+2026-01-15 15:13:41 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_YtJdm0IE file=крутые копченые сосиски.jpg price=585 currency=rub
+2026-01-15 15:13:43 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_Kd8YchQz file=сосиски пит-продукт.webp price=266 currency=rub
+2026-01-15 15:13:43 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_Kd8YchQz file=сосиски пит-продукт.webp price=266 currency=rub
+2026-01-15 15:13:46 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_Eg94AYTu file=премиум sausage.jpg price=288 currency=rub
+2026-01-15 15:13:46 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_Eg94AYTu file=премиум sausage.jpg price=288 currency=rub
+2026-01-15 15:13:49 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_e1pRRzy0 file=сосиски калинка.jpg price=34 currency=rub
+2026-01-15 15:13:49 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_e1pRRzy0 file=сосиски калинка.jpg price=34 currency=rub
+2026-01-15 15:13:52 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_puaVo8qy file=казино сосиски.webp price=34 currency=rub
+2026-01-15 15:13:52 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_puaVo8qy file=казино сосиски.webp price=34 currency=rub
+2026-01-15 15:13:57 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_5q-XomlH file=сосиски гриль мастер.jpg price=486 currency=rub
+2026-01-15 15:13:57 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_5q-XomlH file=сосиски гриль мастер.jpg price=486 currency=rub
+2026-01-15 15:14:00 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_l4ltOgs9 file=сосиски Büfe.webp price=147 currency=rub
+2026-01-15 15:14:00 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_l4ltOgs9 file=сосиски Büfe.webp price=147 currency=rub
+2026-01-15 15:14:02 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_GGBqXApx file=гриль сосиски.webp price=32 currency=rub
+2026-01-15 15:14:02 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_GGBqXApx file=гриль сосиски.webp price=32 currency=rub
+2026-01-15 15:14:04 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_6TvWjBXG file=казино сосиски.webp price=34 currency=rub
+2026-01-15 15:14:04 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_6TvWjBXG file=казино сосиски.webp price=34 currency=rub
+2026-01-15 15:14:07 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_WS15YJXp file=сосиски-сардельки.webp price=43 currency=rub
+2026-01-15 15:14:07 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_WS15YJXp file=сосиски-сардельки.webp price=43 currency=rub
+2026-01-15 15:14:09 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_432W_vkF file=пальчики.jpg price=66 currency=rub
+2026-01-15 15:14:09 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_432W_vkF file=пальчики.jpg price=66 currency=rub
+2026-01-15 15:14:16 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_XIaIHpE8 file=турецкие сосиски.jpg price=234 currency=rub
+2026-01-15 15:14:16 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_XIaIHpE8 file=турецкие сосиски.jpg price=234 currency=rub
+2026-01-15 15:14:18 [INFO] cards: Sell card (inventory). user_id=5422468856 item_id=it_5422468856_aTwaf8i8 file=завернутая сосиска.jpg price=96 currency=rub
+2026-01-15 15:14:18 [INFO] cards: Sell card. user_id=5422468856 item_id=it_5422468856_aTwaf8i8 file=завернутая сосиска.jpg price=96 currency=rub
+2026-01-15 15:16:02 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_296pVJjz file=сосиска на вилке.jpg rarity=common
+2026-01-15 15:40:35 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_OVrICKoY file=казино сосиски.webp rarity=dno
+2026-01-15 15:40:58 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_t5l62hez file=сосиски любительские.webp rarity=common
+2026-01-15 15:46:50 [INFO] cards: Roll: user_id=5509479183 item_id=it_5509479183_oKakALDj file=ядрёна копоть.jpg rarity=epic
+2026-01-15 16:25:28 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_u7hid9XI file=пальчики.jpg rarity=common
+2026-01-15 16:39:50 [INFO] cards: Roll: user_id=6350494446 item_id=it_6350494446_LnFeu4aE file=просто сосиски.webp rarity=legendary
+2026-01-15 16:52:34 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_xnQaEUj3 file=американские горячие собаки.jpg price=130 currency=rub
+2026-01-15 16:52:37 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_WLluQ_Ds file=американские сосиски.webp price=115 currency=rub
+2026-01-15 16:52:39 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_hCUZn_Xq file=великолукские сосиски.jpg price=205 currency=rub
+2026-01-15 16:52:41 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_sGSpqH_D file=жирная сосиска.jpg price=250 currency=rub
+2026-01-15 16:52:54 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_vPERSeT9 file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-15 16:52:55 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_tsNadyKi file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-15 16:52:57 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_CcvLJBr2 file=молочные сосиски ГОСТ.jpg price=360 currency=rub
+2026-01-15 16:53:12 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_-b2Ipjzq file=королевские сосиски.webp price=832 currency=rub
+2026-01-15 17:09:50 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_vJhc0VCM file=молочные Черкизово.jpg rarity=dno
+2026-01-15 17:57:17 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_EoKiKkoR file=американские сосиски.webp rarity=common
+2026-01-15 19:47:32 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_ziadmRVm rarity=epic effect=balance_daily
+2026-01-15 19:48:50 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_2S-sPkl1 rarity=epic effect=drop_multiplier
+2026-01-15 19:50:54 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_QiqjE3a4 rarity=epic effect=kazik_spins_daily
+2026-01-15 19:53:25 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_QDq5lwDL rarity=legendary effect=kazik_spins_daily
+2026-01-15 19:54:38 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_jppnTzM5 rarity=legendary effect=drop_multiplier
+2026-01-15 19:58:03 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_dO2AZhwP rarity=legendary effect=free_rolls_daily
+2026-01-15 19:59:36 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_Lo_A3v3d rarity=platinum effect=balance_daily
+2026-01-15 20:08:27 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_VnChUAe_ rarity=platinum effect=balance_daily
+2026-01-15 20:10:29 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_tlyIriNC rarity=platinum effect=stars_daily
+2026-01-15 20:11:32 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_-5y9hh4z rarity=meme effect=kazik_spins_daily
+2026-01-15 20:12:44 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_DjhfJeHZ rarity=meme effect=free_rolls_daily
+2026-01-15 20:15:02 [INFO] cards: Showcase card created. user_id=6603471853 card_id=it_6603471853_x3NN-YUP rarity=meme effect=stars_daily
+2026-01-15 20:17:17 [INFO] cards: Shop buy. user_id=2092974858 item_id=it_2092974858_kCLY1_cS file=арабские сосиски.jpg price=1500 currency=rub
+2026-01-15 20:18:19 [INFO] cards: Shop buy. user_id=2092974858 item_id=it_2092974858_Rs4eyuOP file=арабские сосиски.jpg price=1500 currency=rub
+2026-01-15 20:18:27 [INFO] cards: Shop buy. user_id=2092974858 item_id=it_2092974858_xvGc25k6 file=арабские сосиски.jpg price=1500 currency=rub
+2026-01-15 20:18:30 [INFO] cards: Shop buy. user_id=2092974858 item_id=it_2092974858_6bHR7zua file=арабские сосиски.jpg price=1500 currency=rub
+2026-01-15 20:20:36 [INFO] cards: Showcase card created. user_id=2092974858 card_id=it_2092974858_vX0iGg4V rarity=epic effect=sell_multiplier
+2026-01-15 20:30:01 [INFO] cards: Roll: user_id=1566433470 item_id=it_1566433470_w_FM5B5p file=мини сосиски.jpg rarity=dno
+2026-01-15 20:30:29 [INFO] cards: Sell card (inventory). user_id=1566433470 item_id=it_1566433470_w_FM5B5p file=мини сосиски.jpg price=27 currency=rub
+2026-01-15 20:30:29 [INFO] cards: Sell card. user_id=1566433470 item_id=it_1566433470_w_FM5B5p file=мини сосиски.jpg price=27 currency=rub
+2026-01-15 20:33:31 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_WTq6Jxph file=американские горячие собаки.jpg rarity=common
+2026-01-15 20:56:53 [INFO] cards: Roll: user_id=5509479183 item_id=it_5509479183_toXIy5cn file=великолукские сосиски.jpg rarity=common
+2026-01-15 22:20:50 [INFO] cards: Shop buy. user_id=6350494446 item_id=it_6350494446_QUsbp6fZ file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-16 03:30:34 [INFO] cards: Roll: user_id=6291457624 item_id=it_6291457624_uXwUvuGl file=сосиски органические.jpg rarity=dno
+2026-01-16 04:18:27 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_7wOA7hwh file=шесть нищих сосисок.jpg rarity=dno
+2026-01-16 04:45:58 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_aYkzd90c file=сосиски пит-продукт.webp rarity=uncommon
+2026-01-16 04:58:24 [INFO] cards: Roll: user_id=5269218012 item_id=it_5269218012_eo3q3ErL file=5589.750.jpg rarity=uncommon
+2026-01-16 04:58:27 [INFO] cards: Roll: user_id=5509479183 item_id=it_5509479183_w1FHeeTE file=сосиски-сардельки.webp rarity=dno
+2026-01-16 05:29:31 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_gH9afkI_ file=обрезанные сосиски.jpg rarity=dno
+2026-01-16 05:29:37 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_u7cEUaqR file=сосиски любительские.webp rarity=common
+2026-01-16 05:29:44 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_V5DhQ8t5 file=мини сосиски.jpg rarity=dno
+2026-01-16 05:29:57 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_J0sOaUVT file=мини сосиски.jpg rarity=dno
+2026-01-16 05:29:59 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_hZR9edZa file=sosiski.jpg rarity=dno
+2026-01-16 05:30:02 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_YIzj8pUh file=сосиски PERDIGĀO.jpg rarity=dno
+2026-01-16 05:30:04 [INFO] cards: Roll: user_id=1263864551 item_id=it_1263864551_6Ang1C3x file=сосиски колбасные сказки.jpg rarity=common
+2026-01-16 05:45:37 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_OIj3wj2O file=сосиски лента.webp rarity=dno
+2026-01-16 06:17:56 [INFO] cards: Shop buy. user_id=1263864551 item_id=it_1263864551_K3dhBvjs file=очень длинная сырная сосиска.jpg price=2775 currency=rub
+2026-01-16 06:31:07 [INFO] cards: Roll: user_id=2083433940 item_id=it_2083433940_PKEgsJJH file=Українські сосиски.jpg rarity=dno
+2026-01-16 06:34:14 [INFO] cards: Shop buy. user_id=2083433940 item_id=it_2083433940_ToNBuLBf file=американские сосиски.webp price=74 currency=rub
+2026-01-16 06:34:27 [INFO] cards: Shop buy. user_id=2083433940 item_id=it_2083433940_slig06vM file=венские сосиски Черкизово.webp price=348 currency=rub
+2026-01-16 06:34:35 [INFO] cards: Shop buy. user_id=2083433940 item_id=it_2083433940_c6unmffq file=big сосиски.jpg price=3250 currency=rub
+2026-01-16 06:35:24 [INFO] cards: Shop buy. user_id=2083433940 item_id=it_2083433940_Bs4LIh5o file=арабские сосиски.jpg price=1500 currency=rub
+2026-01-16 07:24:44 [INFO] cards: Roll: user_id=8056977220 item_id=it_8056977220_Y4PAUqT3 file=сосиски-сардельки.webp rarity=dno
+2026-01-16 07:28:02 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_9cb0KC3H file=сосиски кроха.jpg price=32 currency=rub
+2026-01-16 07:28:04 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220__a5a1QiK file=сосиски кроха.jpg price=32 currency=rub
+2026-01-16 07:28:05 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_xP3beeEK file=сосиски кроха.jpg price=32 currency=rub
+2026-01-16 07:28:05 [INFO] cards: Shop buy. user_id=8056977220 item_id=it_8056977220_YImOhP-J file=сосиски кроха.jpg price=32 currency=rub
+2026-01-16 09:26:12 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_6g59k_dU file=сосиски колбастер.jpg rarity=dno
+2026-01-16 09:37:44 [INFO] cards: Roll: user_id=5509479183 item_id=it_5509479183_cY3R31yc file=сосиски колбастер.jpg rarity=dno
+2026-01-16 11:37:39 [INFO] cards: Roll: user_id=2092974858 item_id=it_2092974858_cx7OraJO file=сосиски кроха.jpg rarity=dno
+2026-01-16 14:30:57 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_aGiNB1uS file=сосиски bernina.jpg rarity=common
+2026-01-16 16:32:40 [INFO] cards: Roll: user_id=6603471853 item_id=it_6603471853_EkTV7SBf file=сосиски мусульманские.jpg rarity=rare

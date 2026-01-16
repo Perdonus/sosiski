@@ -1,0 +1,200 @@
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/app/handlers/sausages.py", line 802, in draw_upgrade_confirm_callback
+    return
+NameError: name 'expected_file' is not defined
+2026-01-13 17:58:06 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:58:06 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:58:06 [INFO] aiogram.event: Update id=176358147 is not handled. Duration 29 ms by bot id=8416154932
+2026-01-13 17:58:06 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-546' coro=<BaseRequestHandler._background_feed_update() done, defined at /root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py:137> exception=NameError("name 'expected_file' is not defined")>
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py", line 138, in _background_feed_update
+    result = await self.dispatcher.feed_raw_update(bot=bot, update=update, **self.data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 189, in feed_raw_update
+    return await self.feed_update(bot=bot, update=parsed_update, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/app/ownership_middleware.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/app/handlers/sausages.py", line 780, in draw_upgrade_confirm_callback
+    return
+NameError: name 'expected_file' is not defined
+2026-01-13 17:58:07 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:58:07 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:58:07 [INFO] aiogram.event: Update id=176358148 is not handled. Duration 35 ms by bot id=8416154932
+2026-01-13 17:58:07 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-551' coro=<BaseRequestHandler._background_feed_update() done, defined at /root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py:137> exception=NameError("name 'expected_file' is not defined")>
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py", line 138, in _background_feed_update
+    result = await self.dispatcher.feed_raw_update(bot=bot, update=update, **self.data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 189, in feed_raw_update
+    return await self.feed_update(bot=bot, update=parsed_update, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/app/ownership_middleware.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/app/handlers/sausages.py", line 802, in draw_upgrade_confirm_callback
+    return
+NameError: name 'expected_file' is not defined
+2026-01-13 17:58:14 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:58:14 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:58:14 [INFO] aiogram.event: Update id=176358149 is not handled. Duration 37 ms by bot id=8416154932
+2026-01-13 17:58:14 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-556' coro=<BaseRequestHandler._background_feed_update() done, defined at /root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py:137> exception=NameError("name 'expected_file' is not defined")>
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py", line 138, in _background_feed_update
+    result = await self.dispatcher.feed_raw_update(bot=bot, update=update, **self.data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 189, in feed_raw_update
+    return await self.feed_update(bot=bot, update=parsed_update, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/app/ownership_middleware.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/app/handlers/sausages.py", line 802, in draw_upgrade_confirm_callback
+    return
+NameError: name 'expected_file' is not defined
+2026-01-13 17:58:14 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:17:58:14 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 17:58:15 [INFO] aiogram.event: Update id=176358150 is not handled. Duration 157 ms by bot id=8416154932
+2026-01-13 17:58:15 [ERROR] asyncio: Task exception was never retrieved
+future: <Task finished name='Task-561' coro=<BaseRequestHandler._background_feed_update() done, defined at /root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py:137> exception=NameError("name 'expected_file' is not defined")>
+Traceback (most recent call last):
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/webhook/aiohttp_server.py", line 138, in _background_feed_update
+    result = await self.dispatcher.feed_raw_update(bot=bot, update=update, **self.data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 189, in feed_raw_update
+    return await self.feed_update(bot=bot, update=parsed_update, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 49, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/root/sosiski/app/ownership_middleware.py", line 25, in __call__
+    return await handler(event, data)
+  File "/root/sosiski/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/root/sosiski/app/handlers/sausages.py", line 780, in draw_upgrade_confirm_callback
+    return
+NameError: name 'expected_file' is not defined
+2026-01-13 18:08:55 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:08:55 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:08:55 [INFO] aiogram.event: Update id=176358151 is handled. Duration 331 ms by bot id=8416154932
+2026-01-13 18:09:28 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:28 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:28 [INFO] aiogram.event: Update id=176358152 is handled. Duration 293 ms by bot id=8416154932
+2026-01-13 18:09:31 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:31 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:31 [INFO] aiogram.event: Update id=176358153 is handled. Duration 93 ms by bot id=8416154932
+2026-01-13 18:09:33 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:33 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:33 [INFO] aiogram.event: Update id=176358154 is handled. Duration 70 ms by bot id=8416154932
+2026-01-13 18:09:34 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:34 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:34 [INFO] aiogram.event: Update id=176358155 is handled. Duration 63 ms by bot id=8416154932
+2026-01-13 18:09:39 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:39 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:39 [INFO] aiogram.event: Update id=176358156 is handled. Duration 96 ms by bot id=8416154932
+2026-01-13 18:09:40 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:40 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:41 [INFO] aiogram.event: Update id=176358157 is handled. Duration 247 ms by bot id=8416154932
+2026-01-13 18:09:42 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:42 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:42 [INFO] aiogram.event: Update id=176358158 is handled. Duration 79 ms by bot id=8416154932
+2026-01-13 18:09:50 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:50 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
+2026-01-13 18:09:50 [INFO] aiogram.event: Update id=176358159 is handled. Duration 96 ms by bot id=8416154932
+2026-01-13 18:09:53 [INFO] aiohttp.access: 127.0.0.1 [13/Jan/2026:18:09:53 +0000] "POST /telegram HTTP/1.0" 200 159 "-" "-"
